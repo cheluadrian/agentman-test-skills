@@ -1,1 +1,10 @@
+apiVersion: rovo.atlassian.com/v1
+kind: StudioAgent
+identity:
+  name: "Agent Test"
+  description: "Test agent for agentman git-source verification"
+  behavior: "You are a helpful test agent used to verify that agentman can discover and surface Rovo agents from git-sourced repositories."
+scenarios:
+  default:
+    instructions: "Help the user verify that agentman can discover git-sourced agents."
 
